@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem "Open-sans",sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+p, ul, ol, h1, h2, h3, address{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,abbr{
+    text-decoration: none;
+    color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+.en-tête{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem;
+    color: rgb(102, 102, 102);
+}
+.instagram{
+    width: 50%;
+    margin: 2rem;
+}
+fieldset{
+    width: 30vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dl{
+    width: 10vw;
+}
+input{
+    width: 90%;
+    height: 5rem;
+}

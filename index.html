@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="instagram copie">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./ico/ico.ico">
 </head>
 <body>
-    
+    <main>
+        <p class="en-tête">réalisation d'une copie de la page de connexion du site <strong>instagram</strong><p>
+        <!-- message d'erreur dans le js -->
+        <div class="warning">
+            <p></p>
+        </div>
+        <!-- le formulaire -->
+        <fieldset>
+            <form action="accueil.html" method="get">
+                <img src="./svg/logo_instagram.svg" alt="instagram text" class="instagram">
+                <input type="text" name="email" id="email" placeholder="Mail d'utilisateur" aria-required="true">
+                <input type="password" name="password" id="password" placeholder="Mot de passe" aria-required="true">
+                <input type="submit" value="Se connecter">
+                <p>OU</p>
+                <a href="">Se connecter avec Facebook</a>
+                <a href="">Mot de passe oublie ?</a>
+            </form>
+        </fieldset>
+        <div class="sign in">
+            <p>Vous n'avez pas de compte ? <a href="">Inscrivez-vous</a></p>
+        </div>
+        <p>Télécharger l'application</p>
+        <div class="download">
+            <img src="./asset/appleStore.png" alt="download on ios" class="dl">
+            <img src="./asset/googlePlay.png" alt="download on android" class="dl">
+        </div>
+    </main>
 </body>
 </html>
