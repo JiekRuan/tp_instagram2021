@@ -28,7 +28,7 @@ a,abbr{
 }
 .instagram{
     width: 50%;
-    margin: 2rem;
+    margin: 2rem 0 6rem 0;
 }
 fieldset{
     width: 30vw;
@@ -46,4 +46,31 @@ form{
 input{
     width: 90%;
     height: 5rem;
+    margin-bottom: 1rem;
+}
+.sign_in, .download, .text{
+    text-align: center;
+}
+.or{
+    margin: 2rem auto;
+}
+a{
+    margin-bottom: 1rem;
+    color: rgb(40, 60, 172);
+}
+.button{
+    font-size: large;
+    color: #fff;
+    background-color: rgb(54, 138, 233);
+    border: transparent;
+    border-radius: .5rem;
+}
+.sign_in{
+    border: .2rem solid rgb(148, 148, 148);
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 30vw;
+}
+.text{
+    margin: 2rem 0;
 }
