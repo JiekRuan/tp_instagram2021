@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind+Siliguri:wght@300&family=Lora&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem "Open-sans",sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+p, ul, ol, h1, h2, h3, address{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,abbr{
+    text-decoration: none;
+    color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+.en-tête{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem;
+    color: rgb(102, 102, 102);
+}
+.first_block{
+    border: .2rem solid rgb(148, 148, 148);
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 20%;
+    text-align: center;
+}
+.second_block{
+    border: .2rem solid rgb(148, 148, 148);
+    padding: 2rem;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+}
+.grid{
+    margin: 2rem auto;
+    border: solid;
+    width: 70%;
+}
+.trend{
+    font: 4rem 'Monserrat', sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fafafa;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    row-gap: 0;
+}
+li img{
+    width: 100%;
+}
+.download, .text{
+    text-align: center;
+}
+.dl{
+    width: 10vw;
+}
+.text{
+    margin: 2rem 0;
+}
