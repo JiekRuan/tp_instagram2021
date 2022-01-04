@@ -70,3 +70,31 @@ li img{
 .text{
     margin: 2rem 0;
 }
+@media screen and (max-width: 1028px){
+    .dl{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 520px){
+    .first_block{
+        width: 100%;
+    }
+    .second_block{
+        width: 100%;
+    }
+    .grid{
+        width: 100%;
+        border: transparent;
+    }
+    .trend{
+        font: 3rem 'Monserrat', sans-serif;
+        padding: 1rem;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .dl{
+        width: 30%;
+    }
+}

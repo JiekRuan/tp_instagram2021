@@ -74,4 +74,25 @@ a{
 .text{
     margin: 2rem 0;
 }
-
+@media screen and (max-width: 1028px){
+    fieldset{
+        width: 50%;
+    }
+    .sign_in{
+        width: 50%;
+    }
+    .dl{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 520px){
+    fieldset{
+        width: 100%;
+    }
+    .sign_in{
+        width: 100%;
+    }
+    .dl{
+        width: 30%;
+    }
+}
