@@ -40,6 +40,10 @@ form{
     flex-direction: column;
     align-items: center;
 }
+.warning{
+    color: rgb(255, 35, 35);
+    margin-bottom: 1rem;
+}
 .dl{
     width: 10vw;
 }
@@ -58,7 +62,7 @@ a{
     margin-bottom: 1rem;
     color: rgb(40, 60, 172);
 }
-.button{
+.btn{
     font-size: large;
     color: #fff;
     background-color: rgb(54, 138, 233);

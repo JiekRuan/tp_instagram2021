@@ -21,6 +21,9 @@ a,abbr{
 *{
     box-sizing: border-box;
 }
+.email{
+    color: rgb(50, 219, 28);
+}
 .en-tête{
     text-transform: uppercase;
     text-align: center;

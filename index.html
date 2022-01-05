@@ -13,18 +13,19 @@
     <main>
         <p class="en-tête">réalisation d'une copie de la page de connexion du site <strong>instagram</strong><p>
         <!-- message d'erreur dans le js -->
-        <div>
+        <!-- <div>
             <p class="warning"></p>
-        </div>
+        </div> -->
         <!-- le formulaire -->
         <fieldset>
             <form action="accueil.html" method="get">
                 <img src="./svg/logo_instagram.svg" alt="instagram text" class="instagram">
-                <input type="text" name="email" id="email" placeholder="Mail d'utilisateur" aria-required="true">
+                <p class="warning"></p>
+                <input type="email" name="email" id="email" placeholder="Mail d'utilisateur" aria-required="true">
                 <input type="password" name="password" id="password" placeholder="Mot de passe" aria-required="true">
-                <input type="submit" value="Se connecter" class="button">
+                <input type="submit" value="Se connecter" class="btn">
                 <p class="or"> - OU -</p>
-                <a href="">Se connecter avec Facebook</a>
+                <a href=""><img src="./asset/facebook.png" alt="facebook"> Se connecter avec Facebook</a>
                 <a href="">Mot de passe oublie ?</a>
             </form>
         </fieldset>
