@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let expr = /^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/;
     btn = document.getElementsByClassName("btn");
     form = document.getElementsByClassName("form")[0];
-    // btn.addEventListener("click", e => {
-    //     e.preventDefault();
-    //     form.classList.add("appear");
-    // });
     /* methode */
     let formActive = () => {
         /* portée locale */
@@ -22,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             warning.innerText = "";
             localStorage.setItem("user", email); //stocker le login
             sessionStorage.setItem("user", "sessionid");
-            document.location.assign("accueil_app.html");
+            document.location.assign("accueil.html");
         } else if (!email.match(expr)) {
             warning.style.display = "block";
             warning.innerText = "Mail ou mot de passe incorrect";
@@ -40,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
     /*appelle de la fonction*/
-    submit = document.getElementsByClassName("btn");
+    submit = document.getElementsByTagName("input")[2];
     /*bouton valider*/
     submit.addEventListener("click", e => {
         e.preventDefault(); //empeche rechargement de la page
