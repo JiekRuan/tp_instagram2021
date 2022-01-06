@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => {
         localStorage.clear();
         sessionStorage.clear();
-        document.location.assign("tendances.html");
+        document.location.assign("accueil_app.html");
     });
 });

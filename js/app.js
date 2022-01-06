@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             warning.innerText = "";
             localStorage.setItem("user", email); //stocker le login
             sessionStorage.setItem("user", "sessionid");
-            document.location.assign("tendances.html");
+            document.location.assign("accueil_app.html");
         } else if (!email.match(expr)) {
             warning.style.display = "block";
             warning.innerText = "Mail ou mot de passe incorrect";
